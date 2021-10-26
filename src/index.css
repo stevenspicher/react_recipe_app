@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #3551f1;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #5e83e9;
+}
+.content {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.navbarimg {
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #062f70;
+  margin-bottom: 8px;
+}
+
+.leftbox {
+  float:left; 
+  
+  width:33%;
+  height:280px;
+}
+.middlebox {
+  float:left; 
+ 
+  width:33%;
+  height:280px;
+}
+.rightbox{
+  float:right;
+ 
+  width:33%;
+  height:280px;
+}
+
+.button {
+  color: 'white';
+  background-color: '#3551f1';
+  border-radius: '8px';
+}
+.footer h1 {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  margin:auto;    
+  padding-left: 10%;  
+  color: #3551f1;   
+}
