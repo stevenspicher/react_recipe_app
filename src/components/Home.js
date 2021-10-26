@@ -1,9 +1,9 @@
 import DataList from "./DataList";
-import info from './data.jsx'
 
 
 
-const Home = () => {
+
+const Home = ({info}) => {
 
   return (
     <div>    
